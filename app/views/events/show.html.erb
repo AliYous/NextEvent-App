@@ -1,0 +1,31 @@
+
+
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <br>
+    <div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="mb-4">
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal"><%=@title%></h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$<%=@price%></h1>
+          <h4><%=@description%></h4>
+          <button type="button" class="btn btn-lg btn-block btn-primary">I want to attend</button>
+        </div>
+      </div>
+
+      <div class="mb-4"></div>
+      
+    </div>
+
+  </div>
+  <div class="card-footer text-muted">
+    Date of the event : <%=@event.start_date%>
+  </div>
+</div>
