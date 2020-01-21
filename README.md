@@ -6,4 +6,4 @@ Email - admin@admin.com
 Pwd - iamadmin
 
 
-This webapp is kind of an EventBrite for business Events (except it was one of my first ever rails app and nobody knows about it)
+This is one of my first ever projects with Ruby On Rails. It was the subject of one of the weeks in The Hacking Project Bootcamp
